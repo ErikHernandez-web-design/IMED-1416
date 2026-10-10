@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Calendar Element</title>
+    <title>Grouping Form Eelements</title>
     <link rel="stylesheet" type="css/text" href="./includes/css/stylesheet.css">
     <script src="./includes/javascript/javascript.js"></script>
 </head>
@@ -17,11 +17,18 @@
 
 <section> <!-- main body portion od site -->
 
-<form action="https://www.sunrisemalltx.com/info/" method="post">
-	<label for="userDoB">Date of birth:</label>
-	<input type="date" name="dob" id="userDoB">
-	<input type="submit" value="Submit">
+<form>
+	<fieldset>
+		<legend>Contact Information</legend>
+		<label>Name:<br>
+		<input type="text" name="name"></label><br>
+		<label>Email:<br>
+		<input type="text" name="email"></label><br>
+		<label>Cell No.:<br>
+		<input type="text" name="moblie"></label>
+	</fieldset>
 </form>
+
 
 
 
